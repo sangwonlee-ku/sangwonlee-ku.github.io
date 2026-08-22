@@ -77,3 +77,33 @@ footer { border-top: 2px solid var(--crimson); padding: 20px 0 34px; color: var(
   .quick-links { gap: 5px; }
   .pub-list li { grid-template-columns: 29px 1fr; }
 }
+
+
+/* Profile layout: photo + bilingual profile copy */
+.profile-section {
+  border-top: 0;
+  padding: 40px 0 44px;
+}
+.profile-copy {
+  min-width: 0;
+}
+.profile-copy h2 {
+  margin-bottom: 18px;
+}
+.profile-copy p {
+  margin: 0 0 18px;
+}
+.profile-english {
+  border-top: 1px dashed var(--line);
+  padding-top: 18px;
+  margin-top: 18px;
+}
+@media (max-width: 760px) {
+  .profile-section {
+    grid-template-columns: 1fr;
+  }
+  .profile-english {
+    padding-top: 16px;
+    margin-top: 14px;
+  }
+}

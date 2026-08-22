@@ -1,7 +1,16 @@
-# Sangwon Lee Academic Homepage — Bilingual Version
+# Sangwon Lee Academic Homepage
 
-Replace `index.html` and `styles.css` in the existing GitHub Pages repository. The existing `profile.jpeg` and `Sangwon_Lee_CV.pdf` filenames remain unchanged.
+Upload all five files in this folder to the root of your GitHub Pages repository:
 
-Homepage: `https://sangwonlee-ku.github.io`
+- index.html
+- styles.css
+- profile.jpeg
+- Sangwon_Lee_CV.pdf
+- README.md
 
-To update the CV later, replace `Sangwon_Lee_CV.pdf` with the new file using the same filename.
+GitHub repository:
+https://github.com/sangwonlee-ku/sangwonlee-ku.github.io
+
+After uploading, click Commit changes.
+Then wait briefly and refresh:
+https://sangwonlee-ku.github.io
